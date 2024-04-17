@@ -1,0 +1,48 @@
+<DOCTYPE>
+
+	<html>
+	<!--Colocando titulo-->
+		<head>
+			<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+		</head>
+	
+	<body>
+	<h2>
+		
+			<a href="index.html" target=""> Voltar a página principal</a>	
+		
+	</h2>
+	<!--Inicializando o cadasatro-->
+	<p>
+		<center>
+				<h2>Cadastro de cliente</h2>
+		</center>	
+	<center>
+	<form action="#" method="GET">	
+		
+		<label for="nome">Nome:</label><br>
+		<input type="text" id="nome" name="nome" required minlength="3"
+	maxlength="50" placeholder="Digite seu nome"><br>
+
+		<label for="email">E-mail:</label><br>
+		<input type="email" id="email" name="email" requided placeholder="Digite seu e-mail"><br>
+		
+		<label for="senha">Senha:</label><br>
+		<input type="passaword" id="senha" name="senha" required minlength="8"><br>
+		
+		<label for="confirmar_senha">Confirmar Senha:</label><br>
+		<input type="passaword" id="confirmar_senha" name="confirmar_senha" required minlength="8"><br>
+		
+		<label for="genero">Gênero:</label><br>
+    <input type="radio" id="genero_masculino" name="genero" value="masculino" required>
+    <label for="genero_masculino">Masculino</label><br>
+    <input type="radio" id="genero_feminino" name="genero" value="feminino" required>
+    <label for="genero_feminino">Feminino</label><br>
+    <input type="radio" id="genero_outro" name="genero" value="outro" required>
+    <label for="genero_outro">Outro</label><br>
+	
+	</body>
+	</html>
+	
